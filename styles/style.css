@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 
+    Geneva, Verdana, sans-serif;
+}
+/* https://images4.alphacoders.com/936/936813.png /https://sm.ign.com/ign_es/screenshot/default/d-ntlssw4aanxoe_21n9.jpg / / https://www.enter.co/wp-content/uploads/2019/07/ram_7237832878392321.jpg*/
+body{background-image:url("https://www.dondeir.com/wp-content/uploads/2019/12/rick-morty-4ta-temporada-2.jpg");
+    background-size: cover;
+/* background-repeat: ; */
+}
+header {
+    background-color:brown;
+    width: auto;  /*  */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 300px;
+
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+.ul img{ 
+width:100%
+}
+header nav ul li {
+    background-color: rgba(0,0,0,0.2);
+    padding: 10px;
+    border-radius: 10%;
+
+}
+main {
+   
+    background-color: rgba(0,0,0,0.2);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+
+.item-grid {
+width: 220px;
+background-color: rgba(0,0,0,0.2);
+padding: 20px;
+text-align: center;
+/* margin: 10px; */
+border-radius: 10%;
+}
+
+.item-grid img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+footer {
+    background-color: darkslategray;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul {
+    list-style: none;
+}
+
+.primera-lista li {
+    background-color: blanchedalmond;
+    margin: 10px;
+    padding: 10px;
+     border-radius:10%;
+}
+
+.segunda-lista li {
+    background-color:rgba(0,0,0,0.2) ;
+    margin: 10px;
+    padding: 10px;
+    border-radius:10%;
+}
+
+@media (max-width:480px) {
+    header {
+        flex-direction: column;
+        gap: 10px;
+        background-color: blanchedalmond;
+       
+    }
+
+    /* main {
+        
+    } */
+
+    footer {
+        background-color: brown;
+    }
+}
